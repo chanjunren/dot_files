@@ -3,10 +3,15 @@ if status is-interactive
 	
     fish_add_path /opt/homebrew/bin
 	# Init oh-my-posh theme
-	eval "$(oh-my-posh init fish --config $(brew --prefix oh-my-posh)/themes/jandedobbeleer.omp.json)"	
+	eval "$(oh-my-posh init fish --config $(brew --prefix oh-my-posh)/themes/hul10.omp.json)"	
 	
 	# Aliases
 	if [ -f $HOME/.config/fish/alias.fish ]
 		source $HOME/.config/fish/alias.fish
 	end
+    
+    # Path Variables
+    if [ -f $HOME/.config/fish/paths.fish ]
+        source $HOME/.config/fish/paths.fish
+    end
 end
