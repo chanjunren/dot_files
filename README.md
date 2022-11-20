@@ -1,4 +1,4 @@
-![Mah bootifoo terminal][resources/banner.png]
+![Mah bootifoo terminal](resources/banner.png)
 
 > These are just my bash / vim configurations
 - https://ohmyposh.dev/docs/

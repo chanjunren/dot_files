@@ -11,12 +11,7 @@ if status is-interactive
 	end
     
     # Path Variables
-<<<<<<< HEAD
-    if [ -f $HOME/.config/fish/paths.fish ]
-        source $HOME/.config/fish/paths.fish
-=======
    	if [ -f $HOME/.config/fish/paths.fish ]
         #source $HOME/.config/fish/paths.fish
->>>>>>> darwin
     end
 end
