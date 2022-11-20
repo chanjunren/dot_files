@@ -1,7 +1,7 @@
 if status is-interactive
 	# Commands to run in interactive sessions can go here
-	
-    fish_add_path /opt/homebrew/bin
+	nvm use latest --silent
+    
 	# Init oh-my-posh theme
 	eval "$(oh-my-posh init fish --config $(brew --prefix oh-my-posh)/themes/hul10.omp.json)"	
 	
@@ -11,7 +11,12 @@ if status is-interactive
 	end
     
     # Path Variables
+<<<<<<< HEAD
     if [ -f $HOME/.config/fish/paths.fish ]
         source $HOME/.config/fish/paths.fish
+=======
+   	if [ -f $HOME/.config/fish/paths.fish ]
+        #source $HOME/.config/fish/paths.fish
+>>>>>>> darwin
     end
 end

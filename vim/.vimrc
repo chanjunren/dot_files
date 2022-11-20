@@ -107,3 +107,7 @@ let g:netrw_list_hide.=',\(^\|\s\s\s)\zs\.\S\+'
 " SNIPPETS: using a shortcut to generate a snippet of code
 " example: nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>3jwf>a
 
+noremap <Leader>y "*y
+noremap <Leader>p "*p
+noremap <Leader>Y "+y
+noremap <Leader>P "+p

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 set JAVA_HOME /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
 set CLASSPATH $JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar:.
 set JAVA_PATH $JAVA_HOME/bin:$PATH:.
@@ -13,3 +14,20 @@ contains $M2:$PATH $fish_user_paths; or set -Ua fish_user_paths $M2:$PATH
 #[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 #[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+=======
+switch (uname)
+    case Darwin
+        fish_add_path /opt/homebrew/bin
+    case Darwin
+    case '*'
+end
+
+set -u JAVA_HOME /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+set -u CLASSPATH $JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar:.
+set -u JAVA_PATH $JAVA_HOME/bin:$PATH:.
+fish_add_path $JAVA_PATH
+
+set -u M2_HOME /usr/local/apache-maven/apache-maven-3.6.2
+set -u M2 $M2_HOME/bin
+fish_add_path $M2:$PATH
+>>>>>>> darwin
