@@ -2,7 +2,7 @@
 
 ![Mah bootifoo terminal](resources/banner.png)
 
-![Last Commit](https://img.shields.io/github/last-commit/chanjunren/chanjunren.github.io)
+![GitHub last commit](https://img.shields.io/github/last-commit/chanjunren/dot_files)
 ---
 These are just my bash / vim configurations
 
