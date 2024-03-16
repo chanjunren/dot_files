@@ -1,10 +1,13 @@
 return {
-  { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...}
-  , -- Configure LazyVim to load gruvbox
+  -- add gruvbox
+  { "ellisonleao/gruvbox.nvim" },
+  { "wittyjudge/gruvbox-material" },
+
+  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "gruvbox-material",
     },
- },
+  },
 }

@@ -5,5 +5,5 @@ NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/hunk.omp.json)"
-eval "$(oh-my-posh init zsh --config $XDG_CONFIG_HOME/brew/custom2.omp.json)"
+# eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/stelbent.minimal.omp.json)"
+eval "$(oh-my-posh init zsh --config $XDG_CONFIG_HOME/brew/gruvbox-material.omp.json)"

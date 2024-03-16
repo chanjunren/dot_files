@@ -1,6 +1,7 @@
 # general
 alias ll="ls -al"
 alias dot="cd ~/dot_files"
+alias win="cd /mnt/c/Users/cjr_1"
 alias cl="clear"
 
 # git

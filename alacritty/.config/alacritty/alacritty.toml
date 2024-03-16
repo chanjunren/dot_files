@@ -3,7 +3,9 @@ working_directory = "C:/Users/cjr_1"
 import = [
   # uncomment the flavour you want below:
   #"~/dot_files/alacritty/.config/alacritty/catppuccin-latte.toml"
-  "~/dot_files/alacritty/.config/alacritty/nord.toml"
+  #"~/dot_files/alacritty/.config/alacritty/nord.toml"
+  #"~/dot_files/alacritty/.config/alacritty/gruvbox_material_hard_dark.toml"
+  "~/dot_files/alacritty/.config/alacritty/gruvbox_material_medium_dark.toml"
   # "~/.config/alacritty/catppuccin-frappe.toml"
   # "~/.config/alacritty/catppuccin-macchiato.toml"
 
@@ -16,7 +18,7 @@ args = ["-e", "/bin/zsh"]
 
 [window]
 decorations = "none"
-opacity = 0.90
+opacity = 0.96
 
 [window.padding]
 x = 10
