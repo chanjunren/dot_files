@@ -135,6 +135,5 @@
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
   "editor.renderWhitespace": "none",
-  "editor.renderControlCharacters": false,
-  "window.menuBarVisibility": "compact"
+  "editor.renderControlCharacters": false
 }

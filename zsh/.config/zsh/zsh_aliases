@@ -2,6 +2,8 @@
 alias ll="ls -al"
 alias dot="cd ~/dot_files"
 alias win="cd /mnt/c/Users/cjr_1"
+alias cjr="cd ~/Projects/chanjunren.github.io/"
+
 alias cl="clear"
 
 # git

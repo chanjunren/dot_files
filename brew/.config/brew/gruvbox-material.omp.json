@@ -8,11 +8,11 @@
         {
           "foreground": "#ddc7a1",
           "style": "plain",
-          "template": "\u250c 哈喽 ",
+          "template": "\u250c 🌳 ",
           "type": "session"
         },
         {
-          "background": "#3c3836",
+          "background": "#141617",
           "foreground": "#ddc7a1",
           "powerline_symbol": "\ue0b0",
           "properties": {
@@ -24,12 +24,6 @@
         },
         {
           "background": "#ddc7a1",
-          "background_templates": [
-            "{{ if or (.Working.Changed) (.Staging.Changed) }}#d8a657{{ end }}",
-            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#7daea3{{ end }}",
-            "{{ if gt .Ahead 0 }}#ea6962{{ end }}",
-            "{{ if gt .Behind 0 }}#d8a657{{ end }}"
-          ],
           "foreground": "#32302f",
           "powerline_symbol": "\ue0b0",
           "properties": {
@@ -48,7 +42,7 @@
             "tag_icon": "\u25b6 "
           },
           "style": "powerline",
-          "template": " {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} \u2502{{ end }}{{ if .Staging.Changed }} {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} {{ .StashCount }}{{ end }} ",
+          "template": " {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} \u2502{{ end }}{{ if .Staging.Changed }} {{ .Staging.String }}{{ end }}",
           "type": "git"
         },
         {
